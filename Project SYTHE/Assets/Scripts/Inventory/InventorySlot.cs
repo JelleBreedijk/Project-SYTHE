@@ -1,0 +1,11 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class InventorySlot : MonoBehaviour {
+
+    public Sprite SlotImage { get; set; }
+
+    [SerializeField]
+    private Sprite _slotBackgroundImage;
+}
